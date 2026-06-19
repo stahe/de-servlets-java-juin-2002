@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://stahe.github.io/de-servlets-java-juin-2002/javascript.html">
       
       
-        <link rel="prev" href="programmquellcode.html">
+        <link rel="prev" href="quellcode-von-programmen.html">
       
       
       
@@ -330,14 +330,14 @@
   
   
     <li class="md-nav__item">
-      <a href="die-grundlagen.html" class="md-nav__link">
+      <a href="grundlagen.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    2. Die Grundlagen
+    2. Grundlagen
   
 
     
@@ -411,14 +411,14 @@
   
   
     <li class="md-nav__item">
-      <a href="die-steuerberechnungsanwendung.html" class="md-nav__link">
+      <a href="die-anwendung-impots.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Die Steuerberechnungsanwendung
+    5. Die Anwendung IMPOTS
   
 
     
@@ -445,7 +445,7 @@
   <span class="md-ellipsis">
     
   
-    6. XML und Java
+    6. XML und JAVA
   
 
     
@@ -519,14 +519,14 @@
   
   
     <li class="md-nav__item">
-      <a href="programmquellcode.html" class="md-nav__link">
+      <a href="quellcode-von-programmen.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    9. Programmquellcode
+    9. Quellcode von Programmen
   
 
     
@@ -606,15 +606,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#101-informationen-aus-einem-formular-abrufen" class="md-nav__link">
+  <a href="#101-daten-aus-einem-formular-abrufen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        10.1. Informationen aus einem Formular abrufen
+        10.1. Daten aus einem Formular abrufen
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="10.1. Informationen aus einem Formular abrufen">
+    <nav class="md-nav" aria-label="10.1. Daten aus einem Formular abrufen">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -668,10 +668,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#1022-der-seitencode" class="md-nav__link">
+  <a href="#1022-der-code-der-seite" class="md-nav__link">
     <span class="md-ellipsis">
       
-        10.2.2. Der Seitencode
+        10.2.2. Der Code der Seite
       
     </span>
   </a>
@@ -748,18 +748,18 @@
 
 
 <h1 id="10-javascript">10. <span style="color: #365f91">JavaScript</span></h1>
-<p>In diesem Abschnitt stellen wir drei Beispiele für die Verwendung von JavaScript in Webseiten vor. Wir konzentrieren uns auf die Formularverarbeitung, aber JavaScript kann noch viel mehr.</p>
-<p><a id="toc525008202"></a>
-<a id="toc525008214"></a></p>
-<h2 id="101-informationen-aus-einem-formular-abrufen">10.1. <span style="color: #4f81bd">Informationen aus einem Formular abrufen</span></h2>
-<p>Das folgende Beispiel zeigt, wie man Daten abruft, die der Benutzer in ein Formular im Browser eingegeben hat. Dies ermöglicht in der Regel eine Vorverarbeitung, bevor die Daten an den Server gesendet werden.</p>
-<p><a id="toc525008203"></a>
-<a id="toc525008215"></a></p>
+<p>In diesem Abschnitt zeigen wir drei Beispiele für die Verwendung von JavaScript auf den Seiten WEB. Wir konzentrieren uns auf die Formularverwaltung, aber JavaScript kann noch viel mehr.</p>
+<p><span id="toc525008214" name="toc525008214" class="odt-bookmark-anchor"></span>
+<span id="toc525008202" name="toc525008202" class="odt-bookmark-anchor"></span></p>
+<h2 id="101-daten-aus-einem-formular-abrufen">10.1. <span style="color: #4f81bd">Daten aus einem Formular abrufen</span></h2>
+<p>Das folgende Beispiel zeigt, wie die vom Benutzer in ein Formular eingegebenen Daten im Browser abgerufen werden können. Dies ermöglicht in der Regel eine Vorverarbeitung, bevor die Daten an den Server gesendet werden.</p>
+<p><span id="toc525008215" name="toc525008215" class="odt-bookmark-anchor"></span>
+<span id="toc525008203" name="toc525008203" class="odt-bookmark-anchor"></span></p>
 <h3 id="1011-das-formular">10.1.1. <span style="color: #4f81bd">Das Formular</span></h3>
-<p>Wir haben ein Formular, das die gängigsten Komponenten enthält, sowie eine Schaltfläche <strong>„Anzeigen“,</strong> mit der Sie die Eingaben des Benutzers anzeigen können.</p>
+<p>Wir haben ein Formular, das die gängigsten Komponenten enthält, sowie eine Schaltfläche <strong>„Anzeigen“,</strong> mit der die vom Benutzer vorgenommenen Eingaben angezeigt werden können.</p>
 <p><img src="images/10000000000002E6000001B9A42AC9BD.png" width="605" height="359" style="width:15.998cm;height:9.507cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000002E6000001B9A42AC9BD.png" /></p>
-<p><a id="toc525008204"></a>
-<a id="toc525008216"></a></p>
+<p><span id="toc525008216" name="toc525008216" class="odt-bookmark-anchor"></span>
+<span id="toc525008204" name="toc525008204" class="odt-bookmark-anchor"></span></p>
 <h3 id="1012-der-code">10.1.2. <span style="color: #4f81bd">Der Code</span></h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
@@ -767,53 +767,53 @@
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Un formulaire traité par Javascript<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">language</span><span class="o">=</span><span class="s">&quot;javascript&quot;</span><span class="p">&gt;</span>
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">      </span><span class="kd">function</span><span class="w"> </span><span class="nx">afficher</span><span class="p">(){</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">        </span><span class="c1">// affiche dans une liste les infos du formulaire</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">         </span><span class="c1">// zeigt die Formularinformationen in einer Liste an</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">        </span><span class="c1">// on efface d&#39;abord</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">         </span><span class="c1">// zuerst löschen</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">        </span><span class="nx">effacerInfos</span><span class="p">();</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">        </span><span class="c1">// on affiche la valeur des # champs</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">         </span><span class="c1">// man zeigt den Wert der # Felder an</span>
 <a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">        </span><span class="kd">with</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">frmExemple</span><span class="p">){</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">          </span><span class="c1">// champ caché</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">           </span><span class="c1">// verstecktes Feld</span>
 <a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">          </span><span class="nx">ecrire</span><span class="p">(</span><span class="s2">&quot;champ caché=&quot;</span><span class="o">+</span><span class="nx">cache</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">          </span><span class="c1">// champ textuel simple</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">           </span><span class="c1">// einfaches Textfeld</span>
 <a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">          </span><span class="nx">ecrire</span><span class="p">(</span><span class="s2">&quot;champ textuel simple=&quot;</span><span class="o">+</span><span class="nx">simple</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">          </span><span class="c1">// champ textuel multiple</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">           </span><span class="c1">// Mehrfachtextfeld</span>
 <a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">          </span><span class="nx">ecrire</span><span class="p">(</span><span class="s2">&quot;champ textuel multiple=&quot;</span><span class="o">+</span><span class="nx">lignes</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
-<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">          </span><span class="c1">// boutons radio</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">          </span><span class="c1">// Optionsfelder</span>
 <a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">          </span><span class="k">for</span><span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mf">0</span><span class="p">;</span><span class="nx">i</span><span class="o">&lt;</span><span class="nx">radio</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="nx">i</span><span class="o">++</span><span class="p">){</span>
 <a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">            </span><span class="nx">texte</span><span class="o">=</span><span class="s2">&quot;radio[&quot;</span><span class="o">+</span><span class="nx">i</span><span class="o">+</span><span class="s2">&quot;]=&quot;</span><span class="o">+</span><span class="nx">radio</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">value</span><span class="p">;</span>
 <a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="nx">radio</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">checked</span><span class="p">)</span><span class="w"> </span><span class="nx">texte</span><span class="o">+=</span><span class="s2">&quot;, coché&quot;</span><span class="p">;</span>
 <a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">            </span><span class="nx">ecrire</span><span class="p">(</span><span class="nx">texte</span><span class="p">);</span>
-<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">          </span><span class="p">}</span><span class="c1">//for</span>
-<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">          </span><span class="c1">//  cases à cocher</span>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">          </span><span class="p">}</span><span class="c1">//für</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">             </span><span class="c1">// Kontrollkästchen</span>
 <a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">          </span><span class="k">for</span><span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mf">0</span><span class="p">;</span><span class="nx">i</span><span class="o">&lt;</span><span class="nx">qcm</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="nx">i</span><span class="o">++</span><span class="p">){</span>
 <a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">            </span><span class="nx">texte</span><span class="o">=</span><span class="s2">&quot;qcm[&quot;</span><span class="o">+</span><span class="nx">i</span><span class="o">+</span><span class="s2">&quot;]=&quot;</span><span class="o">+</span><span class="nx">qcm</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">value</span><span class="p">;</span>
 <a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="nx">qcm</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">checked</span><span class="p">)</span><span class="w"> </span><span class="nx">texte</span><span class="o">+=</span><span class="s2">&quot;, coché&quot;</span><span class="p">;</span>
 <a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">            </span><span class="nx">ecrire</span><span class="p">(</span><span class="nx">texte</span><span class="p">);</span>
-<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="w">          </span><span class="p">}</span><span class="c1">//for</span>
-<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">          </span><span class="c1">//liste déroulante</span>
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="w">          </span><span class="p">}</span><span class="c1">//für</span>
+<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">           </span><span class="c1">//Dropdown-Liste</span>
 <a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">          </span><span class="nx">ecrire</span><span class="p">(</span><span class="s2">&quot;index sélectionné dans le menu=&quot;</span><span class="o">+</span><span class="nx">menu</span><span class="p">.</span><span class="nx">selectedIndex</span><span class="p">);</span>
 <a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="w">          </span><span class="k">for</span><span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mf">0</span><span class="p">;</span><span class="nx">i</span><span class="o">&lt;</span><span class="nx">menu</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="nx">i</span><span class="o">++</span><span class="p">){</span>
 <a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="w">            </span><span class="nx">texte</span><span class="o">=</span><span class="s2">&quot;menu[&quot;</span><span class="o">+</span><span class="nx">i</span><span class="o">+</span><span class="s2">&quot;]=&quot;</span><span class="o">+</span><span class="nx">menu</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">text</span><span class="p">;</span>
 <a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="nx">menu</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">selected</span><span class="p">)</span><span class="w"> </span><span class="nx">texte</span><span class="o">+=</span><span class="s2">&quot;,sélectionné&quot;</span><span class="p">;</span>
 <a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a><span class="w">            </span><span class="nx">ecrire</span><span class="p">(</span><span class="nx">texte</span><span class="p">);</span>
-<a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="w">          </span><span class="p">}</span><span class="c1">//for</span>
-<a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="w">          </span><span class="c1">//liste à choix multiple</span>
+<a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="w">          </span><span class="p">}</span><span class="c1">//für</span>
+<a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="w">           </span><span class="c1">//Mehrfachauswahlliste</span>
 <a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a><span class="w">          </span><span class="k">for</span><span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mf">0</span><span class="p">;</span><span class="nx">i</span><span class="o">&lt;</span><span class="nx">lstVoitures</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="nx">i</span><span class="o">++</span><span class="p">){</span>
 <a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a><span class="w">            </span><span class="nx">texte</span><span class="o">=</span><span class="s2">&quot;lstVoitures[&quot;</span><span class="o">+</span><span class="nx">i</span><span class="o">+</span><span class="s2">&quot;]=&quot;</span><span class="o">+</span><span class="nx">lstVoitures</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">text</span><span class="p">;</span>
 <a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="nx">lstVoitures</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">selected</span><span class="p">)</span><span class="w"> </span><span class="nx">texte</span><span class="o">+=</span><span class="s2">&quot;,sélectionné&quot;</span><span class="p">;</span>
 <a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a><span class="w">            </span><span class="nx">ecrire</span><span class="p">(</span><span class="nx">texte</span><span class="p">);</span>
-<a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="w">          </span><span class="p">}</span><span class="c1">//for</span>
-<a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a><span class="w">          </span><span class="c1">//mot de passe</span>
+<a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="w">          </span><span class="p">}</span><span class="c1">//für</span>
+<a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a><span class="w">           </span><span class="c1">//Passwort</span>
 <a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a><span class="w">          </span><span class="nx">ecrire</span><span class="p">(</span><span class="s2">&quot;mot de passe=&quot;</span><span class="o">+</span><span class="nx">passwd</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
-<a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a><span class="w">        </span><span class="p">}</span><span class="c1">//with</span>
-<a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a><span class="w">      </span><span class="p">}</span><span class="c1">//function</span>
+<a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a><span class="w">        </span><span class="p">}</span><span class="c1">//mit</span>
+<a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a><span class="w">      </span><span class="p">}</span><span class="c1">//Funktion</span>
 <a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a>
 <a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a><span class="w">      </span><span class="kd">function</span><span class="w"> </span><span class="nx">ecrire</span><span class="p">(</span><span class="nx">texte</span><span class="p">){</span>
-<a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a><span class="w">        </span><span class="c1">// écrit texte dans la liste des infos</span>
+<a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a><span class="w">         </span><span class="c1">// schreibt Text in die Informationsliste</span>
 <a id="__codelineno-0-52" name="__codelineno-0-52" href="#__codelineno-0-52"></a><span class="w">        </span><span class="nx">frmInfos</span><span class="p">.</span><span class="nx">lstInfos</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">frmInfos</span><span class="p">.</span><span class="nx">lstInfos</span><span class="p">.</span><span class="nx">length</span><span class="p">]</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nx">Option</span><span class="p">(</span><span class="nx">texte</span><span class="p">);</span>
-<a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a><span class="w">      </span><span class="p">}</span><span class="c1">//écrire</span>
+<a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a><span class="w">      </span><span class="p">}</span><span class="c1">//schreiben</span>
 <a id="__codelineno-0-54" name="__codelineno-0-54" href="#__codelineno-0-54"></a>
 <a id="__codelineno-0-55" name="__codelineno-0-55" href="#__codelineno-0-55"></a><span class="w">      </span><span class="kd">function</span><span class="w"> </span><span class="nx">effacerInfos</span><span class="p">(){</span>
 <a id="__codelineno-0-56" name="__codelineno-0-56" href="#__codelineno-0-56"></a><span class="w">        </span><span class="nx">frmInfos</span><span class="p">.</span><span class="nx">lstInfos</span><span class="p">.</span><span class="nx">length</span><span class="o">=</span><span class="mf">0</span><span class="p">;</span>
@@ -916,17 +916,17 @@
 <a id="__codelineno-0-153" name="__codelineno-0-153" href="#__codelineno-0-153"></a>  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 <a id="__codelineno-0-154" name="__codelineno-0-154" href="#__codelineno-0-154"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </code></pre></div>
-<p><a id="toc525008205"></a>
-<a id="toc525008217"></a></p>
+<p><span id="toc525008217" name="toc525008217" class="odt-bookmark-anchor"></span>
+<span id="toc525008205" name="toc525008205" class="odt-bookmark-anchor"></span></p>
 <h2 id="102-regulare-ausdrucke-in-javascript">10.2. <span style="color: #4f81bd">Reguläre Ausdrücke in JavaScript</span></h2>
-<p>Auf der Browserseite kann JavaScript verwendet werden, um vom Benutzer eingegebene Daten zu validieren, bevor sie an den Server gesendet werden. Hier ist ein Programm zum Testen dieser regulären Ausdrücke.</p>
-<p><a id="toc525008206"></a>
-<a id="toc525008218"></a></p>
+<p>Auf Seiten des Browsers kann JavaScript verwendet werden, um die Gültigkeit der vom Benutzer eingegebenen Daten zu überprüfen, bevor diese an den Server gesendet werden. Hier ist ein Programm zum Testen dieser regulären Ausdrücke.</p>
+<p><span id="toc525008218" name="toc525008218" class="odt-bookmark-anchor"></span>
+<span id="toc525008206" name="toc525008206" class="odt-bookmark-anchor"></span></p>
 <h3 id="1021-die-testseite">10.2.1. <span style="color: #4f81bd">Die Testseite</span></h3>
 <p><img src="images/1000000000000292000001B23F788229.png" width="605" height="399" style="width:15.998cm;height:10.552cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000292000001B23F788229.png" /></p>
-<p><a id="toc525008207"></a>
-<a id="toc525008219"></a></p>
-<h3 id="1022-der-seitencode">10.2.2. <span style="color: #4f81bd">Der Seitencode</span></h3>
+<p><span id="toc525008219" name="toc525008219" class="odt-bookmark-anchor"></span>
+<span id="toc525008207" name="toc525008207" class="odt-bookmark-anchor"></span></p>
+<h3 id="1022-der-code-der-seite">10.2.2. <span style="color: #4f81bd">Der Code der Seite</span></h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
 <a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
@@ -934,59 +934,59 @@
 <a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">language</span><span class="o">=</span><span class="s">&quot;javascript&quot;</span><span class="p">&gt;</span>
 <a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">      </span><span class="kd">function</span><span class="w"> </span><span class="nx">afficherInfos</span><span class="p">(){</span>
 <a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">        </span><span class="kd">with</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">frmRegExp</span><span class="p">){</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">          </span><span class="c1">// qq chose à faire ?</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">           </span><span class="c1">// Gibt es etwas zu tun?</span>
 <a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">          </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="w"> </span><span class="nx">verifier</span><span class="p">())</span><span class="w"> </span><span class="k">return</span><span class="p">;</span>
-<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">          </span><span class="c1">// c&#39;est bon - on efface les résultats précédents</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">          </span><span class="c1">// Alles klar – die vorherigen Ergebnisse werden gelöscht</span>
 <a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">          </span><span class="nx">effacerInfos</span><span class="p">();</span>
-<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">          </span><span class="c1">// vérification du modèle</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">           </span><span class="c1">// Überprüfung der Vorlage</span>
 <a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">          </span><span class="nx">modele</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nb">RegExp</span><span class="p">(</span><span class="nx">txtModele</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
 <a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">          </span><span class="nx">champs</span><span class="o">=</span><span class="nx">modele</span><span class="p">.</span><span class="nx">exec</span><span class="p">(</span><span class="nx">txtChaine</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
 <a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">          </span><span class="k">if</span><span class="p">(</span><span class="nx">champs</span><span class="o">==</span><span class="kc">null</span><span class="p">)</span>
-<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">            </span><span class="c1">// pas de correspondance entre modèle et chaîne</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">             </span><span class="c1">// Keine Übereinstimmung zwischen Muster und Zeichenfolge</span>
 <a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">            </span><span class="nx">ecrireInfos</span><span class="p">(</span><span class="s2">&quot;pas de correspondance&quot;</span><span class="p">);</span>
 <a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">          </span><span class="k">else</span><span class="p">{</span>
-<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">            </span><span class="c1">// correspondance - on affiche les résultats obtenus</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">             </span><span class="c1">// Übereinstimmung – die Ergebnisse werden angezeigt</span>
 <a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="w">            </span><span class="nx">ecrireInfos</span><span class="p">(</span><span class="s2">&quot;Il y a correspondance&quot;</span><span class="p">);</span>
 <a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="w">            </span><span class="k">for</span><span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mf">0</span><span class="p">;</span><span class="nx">i</span><span class="o">&lt;</span><span class="nx">champs</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="nx">i</span><span class="o">++</span><span class="p">)</span>
 <a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="w">              </span><span class="nx">ecrireInfos</span><span class="p">(</span><span class="s2">&quot;champs[&quot;</span><span class="o">+</span><span class="nx">i</span><span class="o">+</span><span class="s2">&quot;]=[&quot;</span><span class="o">+</span><span class="nx">champs</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">+</span><span class="s2">&quot;]&quot;</span><span class="p">);</span>
-<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="w">          </span><span class="p">}</span><span class="c1">//else</span>
-<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="w">        </span><span class="p">}</span><span class="c1">//with</span>
-<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="w">      </span><span class="p">}</span><span class="c1">//function</span>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="w">          </span><span class="p">}</span><span class="c1">//sonst</span>
+<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="w">        </span><span class="p">}</span><span class="c1">//mit</span>
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="w">      </span><span class="p">}</span><span class="c1">//Funktion</span>
 <a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a>
 <a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a><span class="w">      </span><span class="kd">function</span><span class="w"> </span><span class="nx">ecrireInfos</span><span class="p">(</span><span class="nx">texte</span><span class="p">){</span>
-<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a><span class="w">        </span><span class="c1">// écrit texte dans la liste des infos</span>
+<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a><span class="w">        </span><span class="c1">// schreibt Text in die Informationsliste</span>
 <a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a><span class="w">        </span><span class="nb">document</span><span class="p">.</span><span class="nx">frmRegExp</span><span class="p">.</span><span class="nx">lstInfos</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nb">document</span><span class="p">.</span><span class="nx">frmRegExp</span><span class="p">.</span><span class="nx">lstInfos</span><span class="p">.</span><span class="nx">length</span><span class="p">]</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nx">Option</span><span class="p">(</span><span class="nx">texte</span><span class="p">);</span>
-<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a><span class="w">      </span><span class="p">}</span><span class="c1">//écrire</span>
+<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a><span class="w">      </span><span class="p">}</span><span class="c1">//schreiben</span>
 <a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a>
 <a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a><span class="w">      </span><span class="kd">function</span><span class="w"> </span><span class="nx">effacerInfos</span><span class="p">(){</span>
 <a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a><span class="w">        </span><span class="nx">frmRegExp</span><span class="p">.</span><span class="nx">lstInfos</span><span class="p">.</span><span class="nx">length</span><span class="o">=</span><span class="mf">0</span><span class="p">;</span>
 <a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a><span class="w">      </span><span class="p">}</span><span class="c1">//effacerInfos</span>
 <a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a>
 <a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a><span class="w">      </span><span class="kd">function</span><span class="w"> </span><span class="nx">jouer</span><span class="p">(){</span>
-<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a><span class="w">        </span><span class="c1">// teste le modèle contre la chaîne dans l&#39;exemple choisi</span>
+<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a><span class="w">         </span><span class="c1">// prüft die Vorlage anhand der Zeichenfolge im ausgewählten Beispiel</span>
 <a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a><span class="w">        </span><span class="kd">with</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">frmRegExp</span><span class="p">){</span>
 <a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a><span class="w">          </span><span class="nx">txtModele</span><span class="p">.</span><span class="nx">value</span><span class="o">=</span><span class="nx">lstModeles</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">lstModeles</span><span class="p">.</span><span class="nx">selectedIndex</span><span class="p">].</span><span class="nx">text</span>
 <a id="__codelineno-1-40" name="__codelineno-1-40" href="#__codelineno-1-40"></a><span class="w">          </span><span class="nx">txtChaine</span><span class="p">.</span><span class="nx">value</span><span class="o">=</span><span class="nx">lstChaines</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">lstChaines</span><span class="p">.</span><span class="nx">selectedIndex</span><span class="p">].</span><span class="nx">text</span>
 <a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a><span class="w">          </span><span class="nx">afficherInfos</span><span class="p">();</span>
-<a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a><span class="w">        </span><span class="p">}</span><span class="c1">//with</span>
-<a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a><span class="w">      </span><span class="p">}</span><span class="c1">//jouer</span>
+<a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a><span class="w">        </span><span class="p">}</span><span class="c1">//mit</span>
+<a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a><span class="w">      </span><span class="p">}</span><span class="c1">//abspielen</span>
 <a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a>
 <a id="__codelineno-1-45" name="__codelineno-1-45" href="#__codelineno-1-45"></a><span class="w">      </span><span class="kd">function</span><span class="w"> </span><span class="nx">ajouter</span><span class="p">(){</span>
-<a id="__codelineno-1-46" name="__codelineno-1-46" href="#__codelineno-1-46"></a><span class="w">        </span><span class="c1">//ajoute le test courant aux exemples</span>
+<a id="__codelineno-1-46" name="__codelineno-1-46" href="#__codelineno-1-46"></a><span class="w">         </span><span class="c1">//fügt den aktuellen Test zu den Beispielen hinzu</span>
 <a id="__codelineno-1-47" name="__codelineno-1-47" href="#__codelineno-1-47"></a><span class="w">        </span><span class="kd">with</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">frmRegExp</span><span class="p">){</span>
-<a id="__codelineno-1-48" name="__codelineno-1-48" href="#__codelineno-1-48"></a><span class="w">          </span><span class="c1">// qq chose à faire ?</span>
+<a id="__codelineno-1-48" name="__codelineno-1-48" href="#__codelineno-1-48"></a><span class="w">          </span><span class="c1">// Gibt es etwas zu tun?</span>
 <a id="__codelineno-1-49" name="__codelineno-1-49" href="#__codelineno-1-49"></a><span class="w">          </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="w"> </span><span class="nx">verifier</span><span class="p">())</span><span class="w"> </span><span class="k">return</span><span class="p">;</span>
-<a id="__codelineno-1-50" name="__codelineno-1-50" href="#__codelineno-1-50"></a><span class="w">          </span><span class="c1">// ajout</span>
+<a id="__codelineno-1-50" name="__codelineno-1-50" href="#__codelineno-1-50"></a><span class="w">          </span><span class="c1">// Hinzufügen</span>
 <a id="__codelineno-1-51" name="__codelineno-1-51" href="#__codelineno-1-51"></a><span class="w">          </span><span class="nx">lstModeles</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">lstModeles</span><span class="p">.</span><span class="nx">length</span><span class="p">]</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nx">Option</span><span class="p">(</span><span class="nx">txtModele</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
 <a id="__codelineno-1-52" name="__codelineno-1-52" href="#__codelineno-1-52"></a><span class="w">          </span><span class="nx">lstChaines</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">lstChaines</span><span class="p">.</span><span class="nx">length</span><span class="p">]</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nx">Option</span><span class="p">(</span><span class="nx">txtChaine</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
-<a id="__codelineno-1-53" name="__codelineno-1-53" href="#__codelineno-1-53"></a><span class="w">          </span><span class="c1">// raz saisies</span>
+<a id="__codelineno-1-53" name="__codelineno-1-53" href="#__codelineno-1-53"></a><span class="w">          </span><span class="c1">// Eingaben löschen</span>
 <a id="__codelineno-1-54" name="__codelineno-1-54" href="#__codelineno-1-54"></a><span class="w">          </span><span class="nx">txtModele</span><span class="p">.</span><span class="nx">value</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">;</span>
 <a id="__codelineno-1-55" name="__codelineno-1-55" href="#__codelineno-1-55"></a><span class="w">          </span><span class="nx">txtChaine</span><span class="p">.</span><span class="nx">value</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">;</span>
-<a id="__codelineno-1-56" name="__codelineno-1-56" href="#__codelineno-1-56"></a><span class="w">        </span><span class="p">}</span><span class="c1">//with</span>
-<a id="__codelineno-1-57" name="__codelineno-1-57" href="#__codelineno-1-57"></a><span class="w">      </span><span class="p">}</span><span class="c1">//ajouter</span>
+<a id="__codelineno-1-56" name="__codelineno-1-56" href="#__codelineno-1-56"></a><span class="w">        </span><span class="p">}</span><span class="c1">//mit</span>
+<a id="__codelineno-1-57" name="__codelineno-1-57" href="#__codelineno-1-57"></a><span class="w">      </span><span class="p">}</span><span class="c1">//hinzufügen</span>
 <a id="__codelineno-1-58" name="__codelineno-1-58" href="#__codelineno-1-58"></a>
 <a id="__codelineno-1-59" name="__codelineno-1-59" href="#__codelineno-1-59"></a><span class="w">      </span><span class="kd">function</span><span class="w"> </span><span class="nx">verifier</span><span class="p">(){</span>
-<a id="__codelineno-1-60" name="__codelineno-1-60" href="#__codelineno-1-60"></a><span class="w">        </span><span class="c1">// vérifie que les champs de saisie sont non vides</span>
+<a id="__codelineno-1-60" name="__codelineno-1-60" href="#__codelineno-1-60"></a><span class="w">         </span><span class="c1">// Prüft, ob die Eingabefelder nicht leer sind</span>
 <a id="__codelineno-1-61" name="__codelineno-1-61" href="#__codelineno-1-61"></a><span class="w">        </span><span class="kd">with</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">frmRegExp</span><span class="p">){</span>
 <a id="__codelineno-1-62" name="__codelineno-1-62" href="#__codelineno-1-62"></a><span class="w">          </span><span class="nx">champs</span><span class="o">=</span><span class="sr">/^\s*$/</span><span class="p">.</span><span class="nx">exec</span><span class="p">(</span><span class="nx">txtModele</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
 <a id="__codelineno-1-63" name="__codelineno-1-63" href="#__codelineno-1-63"></a><span class="w">          </span><span class="k">if</span><span class="p">(</span><span class="nx">champs</span><span class="o">!=</span><span class="kc">null</span><span class="p">){</span>
@@ -999,11 +999,11 @@
 <a id="__codelineno-1-70" name="__codelineno-1-70" href="#__codelineno-1-70"></a><span class="w">            </span><span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;Vous n&#39;avez pas indiqué de chaîne de test&quot;</span><span class="p">);</span>
 <a id="__codelineno-1-71" name="__codelineno-1-71" href="#__codelineno-1-71"></a><span class="w">            </span><span class="nx">txtChaine</span><span class="p">.</span><span class="nx">focus</span><span class="p">();</span>
 <a id="__codelineno-1-72" name="__codelineno-1-72" href="#__codelineno-1-72"></a><span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
-<a id="__codelineno-1-73" name="__codelineno-1-73" href="#__codelineno-1-73"></a><span class="w">          </span><span class="p">}</span><span class="c1">//if</span>
-<a id="__codelineno-1-74" name="__codelineno-1-74" href="#__codelineno-1-74"></a><span class="w">          </span><span class="c1">// c&#39;est bon</span>
+<a id="__codelineno-1-73" name="__codelineno-1-73" href="#__codelineno-1-73"></a><span class="w">          </span><span class="p">}</span><span class="c1">//wenn</span>
+<a id="__codelineno-1-74" name="__codelineno-1-74" href="#__codelineno-1-74"></a><span class="w">          </span><span class="c1">// alles in Ordnung</span>
 <a id="__codelineno-1-75" name="__codelineno-1-75" href="#__codelineno-1-75"></a><span class="w">          </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
-<a id="__codelineno-1-76" name="__codelineno-1-76" href="#__codelineno-1-76"></a><span class="w">        </span><span class="p">}</span><span class="c1">//with</span>
-<a id="__codelineno-1-77" name="__codelineno-1-77" href="#__codelineno-1-77"></a><span class="w">      </span><span class="p">}</span><span class="c1">//verifier</span>
+<a id="__codelineno-1-76" name="__codelineno-1-76" href="#__codelineno-1-76"></a><span class="w">        </span><span class="p">}</span><span class="c1">//mit</span>
+<a id="__codelineno-1-77" name="__codelineno-1-77" href="#__codelineno-1-77"></a><span class="w">      </span><span class="p">}</span><span class="c1">//prüfen</span>
 <a id="__codelineno-1-78" name="__codelineno-1-78" href="#__codelineno-1-78"></a><span class="w">    </span><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 <a id="__codelineno-1-79" name="__codelineno-1-79" href="#__codelineno-1-79"></a>  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
 <a id="__codelineno-1-80" name="__codelineno-1-80" href="#__codelineno-1-80"></a>
@@ -1072,15 +1072,15 @@
 <a id="__codelineno-1-143" name="__codelineno-1-143" href="#__codelineno-1-143"></a>  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 <a id="__codelineno-1-144" name="__codelineno-1-144" href="#__codelineno-1-144"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </code></pre></div>
-<p><a id="toc525008208"></a>
-<a id="toc525008220"></a></p>
+<p><span id="toc525008220" name="toc525008220" class="odt-bookmark-anchor"></span>
+<span id="toc525008208" name="toc525008208" class="odt-bookmark-anchor"></span></p>
 <h2 id="103-listenverwaltung-in-javascript">10.3. <span style="color: #4f81bd">Listenverwaltung in JavaScript</span></h2>
-<p><a id="toc525008209"></a>
-<a id="toc525008221"></a></p>
+<p><span id="toc525008221" name="toc525008221" class="odt-bookmark-anchor"></span>
+<span id="toc525008209" name="toc525008209" class="odt-bookmark-anchor"></span></p>
 <h3 id="1031-das-formular">10.3.1. <span style="color: #4f81bd">Das Formular</span></h3>
 <p><img src="images/10000000000002350000013A1117CFBB.png" width="565" height="314" style="width:14.947cm;height:8.306cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000002350000013A1117CFBB.png" /></p>
-<p><a id="toc525008210"></a>
-<a id="toc525008222"></a></p>
+<p><span id="toc525008222" name="toc525008222" class="odt-bookmark-anchor"></span>
+<span id="toc525008210" name="toc525008210" class="odt-bookmark-anchor"></span></p>
 <h3 id="1032-der-code">10.3.2. <span style="color: #4f81bd">Der Code</span></h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
 <a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
@@ -1088,61 +1088,61 @@
 <a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Les listes en Javascript<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
 <a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>
 <a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">language</span><span class="o">=</span><span class="s">&quot;javascript&quot;</span><span class="p">&gt;</span>
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">      </span><span class="c1">// ajouter</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">       </span><span class="c1">// hinzufügen</span>
 <a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">      </span><span class="kd">function</span><span class="w"> </span><span class="nx">ajouter</span><span class="p">(</span><span class="nx">L1</span><span class="p">,</span><span class="nx">L2</span><span class="p">,</span><span class="nx">T</span><span class="p">){</span>
-<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">        </span><span class="c1">// ajoute la valeur du champ T aux listes L1,L2</span>
-<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">          </span><span class="c1">// qq chose à faire ?</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">         </span><span class="c1">// fügt den Wert des Feldes T zu den Listen L1 und L2 hinzu</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">           </span><span class="c1">// Muss etwas unternommen werden?</span>
 <a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">          </span><span class="nx">champs</span><span class="o">=</span><span class="sr">/^\s*$/</span><span class="p">.</span><span class="nx">exec</span><span class="p">(</span><span class="nx">T</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
 <a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">          </span><span class="k">if</span><span class="p">(</span><span class="nx">champs</span><span class="o">!=</span><span class="kc">null</span><span class="p">){</span>
-<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">            </span><span class="c1">// le champ est vide</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">            </span><span class="c1">// Das Feld ist leer</span>
 <a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">            </span><span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;Vous n&#39;avez pas indiqué la valeur à ajouter&quot;</span><span class="p">);</span>
 <a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">            </span><span class="nx">txtElement</span><span class="p">.</span><span class="nx">focus</span><span class="p">();</span>
 <a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">            </span><span class="k">return</span><span class="p">;</span>
 <a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="w">          </span><span class="p">}</span><span class="c1">//if</span>
-<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">          </span><span class="c1">// on ajoute l&#39;élément</span>
+<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">           </span><span class="c1">// wird das Element hinzugefügt</span>
 <a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="w">          </span><span class="nx">L1</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">L1</span><span class="p">.</span><span class="nx">length</span><span class="p">]</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nx">Option</span><span class="p">(</span><span class="nx">T</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
 <a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="w">          </span><span class="nx">L2</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">L2</span><span class="p">.</span><span class="nx">length</span><span class="p">]</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nx">Option</span><span class="p">(</span><span class="nx">T</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
 <a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="w">          </span><span class="nx">T</span><span class="p">.</span><span class="nx">value</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">;</span>
-<a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="w">      </span><span class="p">}</span><span class="c1">//ajouter</span>
+<a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="w">      </span><span class="p">}</span><span class="c1">//Hinzufügen</span>
 <a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a>
-<a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="w">      </span><span class="c1">//vider</span>
+<a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="w">       </span><span class="c1">//leeren</span>
 <a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a><span class="w">      </span><span class="kd">function</span><span class="w"> </span><span class="nx">vider</span><span class="p">(</span><span class="nx">L</span><span class="p">){</span>
-<a id="__codelineno-2-26" name="__codelineno-2-26" href="#__codelineno-2-26"></a><span class="w">        </span><span class="c1">// vide la liste L</span>
+<a id="__codelineno-2-26" name="__codelineno-2-26" href="#__codelineno-2-26"></a><span class="w">         </span><span class="c1">// leert die Liste L</span>
 <a id="__codelineno-2-27" name="__codelineno-2-27" href="#__codelineno-2-27"></a><span class="w">        </span><span class="nx">L</span><span class="p">.</span><span class="nx">length</span><span class="o">=</span><span class="mf">0</span><span class="p">;</span>
-<a id="__codelineno-2-28" name="__codelineno-2-28" href="#__codelineno-2-28"></a><span class="w">      </span><span class="p">}</span><span class="c1">//vider</span>
+<a id="__codelineno-2-28" name="__codelineno-2-28" href="#__codelineno-2-28"></a><span class="w">      </span><span class="p">}</span><span class="c1">//leeren</span>
 <a id="__codelineno-2-29" name="__codelineno-2-29" href="#__codelineno-2-29"></a>
-<a id="__codelineno-2-30" name="__codelineno-2-30" href="#__codelineno-2-30"></a><span class="w">     </span><span class="c1">//transfert</span>
+<a id="__codelineno-2-30" name="__codelineno-2-30" href="#__codelineno-2-30"></a><span class="w">     </span><span class="c1">//übertragen</span>
 <a id="__codelineno-2-31" name="__codelineno-2-31" href="#__codelineno-2-31"></a><span class="w">      </span><span class="kd">function</span><span class="w"> </span><span class="nx">transfert</span><span class="p">(</span><span class="nx">L1</span><span class="p">,</span><span class="nx">L2</span><span class="p">,</span><span class="nx">simple</span><span class="p">){</span>
-<a id="__codelineno-2-32" name="__codelineno-2-32" href="#__codelineno-2-32"></a><span class="w">        </span><span class="c1">//transfére dans L2 les éléments sélectionnés dans la liste L1</span>
+<a id="__codelineno-2-32" name="__codelineno-2-32" href="#__codelineno-2-32"></a><span class="w">        </span><span class="c1">//überträgt die in der Liste L1 ausgewählten Elemente in L2</span>
 <a id="__codelineno-2-33" name="__codelineno-2-33" href="#__codelineno-2-33"></a>
-<a id="__codelineno-2-34" name="__codelineno-2-34" href="#__codelineno-2-34"></a><span class="w">        </span><span class="c1">// qq chose à faire ?</span>
-<a id="__codelineno-2-35" name="__codelineno-2-35" href="#__codelineno-2-35"></a><span class="w">        </span><span class="c1">// index de l&#39;élément sélectionné dans L1</span>
+<a id="__codelineno-2-34" name="__codelineno-2-34" href="#__codelineno-2-34"></a><span class="w">         </span><span class="c1">// Gibt es etwas zu tun?</span>
+<a id="__codelineno-2-35" name="__codelineno-2-35" href="#__codelineno-2-35"></a><span class="w">         </span><span class="c1">// Index des in L1 ausgewählten Elements</span>
 <a id="__codelineno-2-36" name="__codelineno-2-36" href="#__codelineno-2-36"></a><span class="w">        </span><span class="nx">index1</span><span class="o">=</span><span class="nx">L1</span><span class="p">.</span><span class="nx">selectedIndex</span><span class="p">;</span>
 <a id="__codelineno-2-37" name="__codelineno-2-37" href="#__codelineno-2-37"></a><span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="nx">index1</span><span class="o">==-</span><span class="mf">1</span><span class="p">){</span>
 <a id="__codelineno-2-38" name="__codelineno-2-38" href="#__codelineno-2-38"></a><span class="w">          </span><span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;Vous n&#39;avez pas sélectionné d&#39;élément&quot;</span><span class="p">);</span>
 <a id="__codelineno-2-39" name="__codelineno-2-39" href="#__codelineno-2-39"></a><span class="w">          </span><span class="k">return</span><span class="p">;</span>
 <a id="__codelineno-2-40" name="__codelineno-2-40" href="#__codelineno-2-40"></a><span class="w">        </span><span class="p">}</span><span class="c1">//if</span>
-<a id="__codelineno-2-41" name="__codelineno-2-41" href="#__codelineno-2-41"></a><span class="w">        </span><span class="c1">// quel est le mode de sélection des éléments des listes</span>
-<a id="__codelineno-2-42" name="__codelineno-2-42" href="#__codelineno-2-42"></a><span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="nx">simple</span><span class="p">){</span><span class="w"> </span><span class="c1">// sélection simple</span>
+<a id="__codelineno-2-41" name="__codelineno-2-41" href="#__codelineno-2-41"></a><span class="w">         </span><span class="c1">// Wie erfolgt die Auswahl der Elemente aus den Listen?</span>
+<a id="__codelineno-2-42" name="__codelineno-2-42" href="#__codelineno-2-42"></a><span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="nx">simple</span><span class="p">){</span><span class="w"> </span><span class="c1">// Einfache Auswahl</span>
 <a id="__codelineno-2-43" name="__codelineno-2-43" href="#__codelineno-2-43"></a><span class="w">          </span><span class="nx">element1</span><span class="o">=</span><span class="nx">L1</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">index1</span><span class="p">].</span><span class="nx">text</span><span class="p">;</span>
-<a id="__codelineno-2-44" name="__codelineno-2-44" href="#__codelineno-2-44"></a><span class="w">          </span><span class="c1">//ajout dans L2</span>
+<a id="__codelineno-2-44" name="__codelineno-2-44" href="#__codelineno-2-44"></a><span class="w">           </span><span class="c1">//Hinzufügen in L2</span>
 <a id="__codelineno-2-45" name="__codelineno-2-45" href="#__codelineno-2-45"></a><span class="w">          </span><span class="nx">L2</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">L2</span><span class="p">.</span><span class="nx">length</span><span class="p">]</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nx">Option</span><span class="p">(</span><span class="nx">element1</span><span class="p">);</span>
-<a id="__codelineno-2-46" name="__codelineno-2-46" href="#__codelineno-2-46"></a><span class="w">          </span><span class="c1">//suppression dans L1</span>
+<a id="__codelineno-2-46" name="__codelineno-2-46" href="#__codelineno-2-46"></a><span class="w">          </span><span class="c1">//Löschen in L1</span>
 <a id="__codelineno-2-47" name="__codelineno-2-47" href="#__codelineno-2-47"></a><span class="w">          </span><span class="nx">L1</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">index1</span><span class="p">]</span><span class="o">=</span><span class="kc">null</span><span class="p">;</span>
-<a id="__codelineno-2-48" name="__codelineno-2-48" href="#__codelineno-2-48"></a><span class="w">        </span><span class="p">}</span><span class="c1">//simple</span>
-<a id="__codelineno-2-49" name="__codelineno-2-49" href="#__codelineno-2-49"></a><span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="w"> </span><span class="nx">simple</span><span class="p">){</span><span class="w"> </span><span class="c1">//sélection multiple</span>
-<a id="__codelineno-2-50" name="__codelineno-2-50" href="#__codelineno-2-50"></a><span class="w">          </span><span class="c1">//on parcourt la liste 1 en sens inverse</span>
+<a id="__codelineno-2-48" name="__codelineno-2-48" href="#__codelineno-2-48"></a><span class="w">        </span><span class="p">}</span><span class="c1">//einfach</span>
+<a id="__codelineno-2-49" name="__codelineno-2-49" href="#__codelineno-2-49"></a><span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="w"> </span><span class="nx">simple</span><span class="p">){</span><span class="w"> </span><span class="c1">//Mehrfachauswahl</span>
+<a id="__codelineno-2-50" name="__codelineno-2-50" href="#__codelineno-2-50"></a><span class="w">           </span><span class="c1">//Liste 1 in umgekehrter Reihenfolge durchlaufen</span>
 <a id="__codelineno-2-51" name="__codelineno-2-51" href="#__codelineno-2-51"></a><span class="w">          </span><span class="k">for</span><span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="nx">L1</span><span class="p">.</span><span class="nx">length</span><span class="o">-</span><span class="mf">1</span><span class="p">;</span><span class="nx">i</span><span class="o">&gt;=</span><span class="mf">0</span><span class="p">;</span><span class="nx">i</span><span class="o">--</span><span class="p">){</span>
-<a id="__codelineno-2-52" name="__codelineno-2-52" href="#__codelineno-2-52"></a><span class="w">            </span><span class="c1">//élément sélectionné ?</span>
+<a id="__codelineno-2-52" name="__codelineno-2-52" href="#__codelineno-2-52"></a><span class="w">            </span><span class="c1">//Element ausgewählt?</span>
 <a id="__codelineno-2-53" name="__codelineno-2-53" href="#__codelineno-2-53"></a><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="nx">L1</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">selected</span><span class="p">){</span>
-<a id="__codelineno-2-54" name="__codelineno-2-54" href="#__codelineno-2-54"></a><span class="w">              </span><span class="c1">//on l&#39;ajoute à L2</span>
+<a id="__codelineno-2-54" name="__codelineno-2-54" href="#__codelineno-2-54"></a><span class="w">               </span><span class="c1">//wird zu L2 hinzugefügt</span>
 <a id="__codelineno-2-55" name="__codelineno-2-55" href="#__codelineno-2-55"></a><span class="w">              </span><span class="nx">L2</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">L2</span><span class="p">.</span><span class="nx">length</span><span class="p">]</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nx">Option</span><span class="p">(</span><span class="nx">L1</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">text</span><span class="p">);</span>
-<a id="__codelineno-2-56" name="__codelineno-2-56" href="#__codelineno-2-56"></a><span class="w">              </span><span class="c1">//on le supprime de L1</span>
+<a id="__codelineno-2-56" name="__codelineno-2-56" href="#__codelineno-2-56"></a><span class="w">              </span><span class="c1">//Es wird aus L1 entfernt</span>
 <a id="__codelineno-2-57" name="__codelineno-2-57" href="#__codelineno-2-57"></a><span class="w">              </span><span class="nx">L1</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">=</span><span class="kc">null</span><span class="p">;</span>
 <a id="__codelineno-2-58" name="__codelineno-2-58" href="#__codelineno-2-58"></a><span class="w">            </span><span class="p">}</span><span class="c1">//if</span>
-<a id="__codelineno-2-59" name="__codelineno-2-59" href="#__codelineno-2-59"></a><span class="w">          </span><span class="p">}</span><span class="c1">//for i</span>
-<a id="__codelineno-2-60" name="__codelineno-2-60" href="#__codelineno-2-60"></a><span class="w">        </span><span class="p">}</span><span class="c1">//if ! simple</span>
-<a id="__codelineno-2-61" name="__codelineno-2-61" href="#__codelineno-2-61"></a><span class="w">      </span><span class="p">}</span><span class="c1">//transfert</span>
+<a id="__codelineno-2-59" name="__codelineno-2-59" href="#__codelineno-2-59"></a><span class="w">          </span><span class="p">}</span><span class="c1">//für i</span>
+<a id="__codelineno-2-60" name="__codelineno-2-60" href="#__codelineno-2-60"></a><span class="w">        </span><span class="p">}</span><span class="c1">//if ! einfach</span>
+<a id="__codelineno-2-61" name="__codelineno-2-61" href="#__codelineno-2-61"></a><span class="w">      </span><span class="p">}</span><span class="c1">//Übertragung</span>
 <a id="__codelineno-2-62" name="__codelineno-2-62" href="#__codelineno-2-62"></a><span class="w">   </span><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 <a id="__codelineno-2-63" name="__codelineno-2-63" href="#__codelineno-2-63"></a>  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
 <a id="__codelineno-2-64" name="__codelineno-2-64" href="#__codelineno-2-64"></a>
